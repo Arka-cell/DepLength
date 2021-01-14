@@ -1,0 +1,32 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <meta charset="utf-8">
+    <title>Dependency Length Example</title>
+  </head>
+  <body>
+    <iframe src="Formula.pdf" style="width:90%; height:536px; margin-left:5%"></iframe>
+    <br>
+    <h1>Here is an example of a demo code that you can execute</h1>
+    <p>Below is a demo that will print a dictionnary that contains the index for each sentence as keys, and their dependency lengths as values:</p>
+
+
+    <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">from</span> <span style="color: #0e84b5; font-weight: bold">depLength</span> <span style="color: #008800; font-weight: bold">import</span> depLength
+
+    sentences <span style="color: #333333">=</span> <span style="background-color: #fff0f0">"""</span>
+    <span style="background-color: #fff0f0">John threw out the trash. John threw the trash out. John threw out the old trash sitting in the kitchen. John threw the old trash sitting in the kitchen out.</span>
+    <span style="background-color: #fff0f0">"""</span>
+
+    res <span style="color: #333333">=</span> depLength<span style="color: #333333">.</span>DepLength(sentences)
+    <span style="color: #008800; font-weight: bold">print</span>(res<span style="color: #333333">.</span>sdl())
+    </pre></div>
+     
+
+
+
+
+
+  </body>
+
+</html>
