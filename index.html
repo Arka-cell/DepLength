@@ -1,0 +1,23 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dependency Length Example</title>
+  </head>
+  <body>
+    <iframe src="Formula.pdf" style="width:90%; height:536px; margin-left:5%"></iframe>
+    <br>
+    <code>
+      <br>
+      from depLength import depLength as dl
+      <br>
+      sentences = """<br>
+      John threw out the trash. John threw the trash out. John threw out the old trash sitting in the kitchen. John threw the old trash sitting in the kitchen out.<br>
+      """<br>
+
+      res = dl.DepLength(sentences)<br>
+      print(res.sdl())
+
+    </code>
+  </body>
+</html>
