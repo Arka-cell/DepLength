@@ -23,9 +23,6 @@ class DepLength:
         self.sentences = [nlp(sentence) for sentence in self.sentences]
         self.senLength = {}
 
-    def sentences(self):
-        return self.sentences
-
     def punctuation(self):
         self.sentencespunc = []
         for sentence in self.sentences:
