@@ -1,5 +1,4 @@
 import spacy
-import pandas as pd
 
 try:
     try:
