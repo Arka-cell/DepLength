@@ -11,9 +11,6 @@ Sentence A is a sequence of  n  words, where each word is a set of other words w
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{k&space;=&space;1}^{n}\sum_{w&space;\in&space;A_{k}&space;}^{}\o&space;(w)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{k&space;=&space;1}^{n}\sum_{w&space;\in&space;A_{k}&space;}^{}\o&space;(w)" title="\sum_{k = 1}^{n}\sum_{w \in A_{k} }^{}\o (w)" /></a>
 
-\[\sum_{k = 1}^{n}\sum_{w = A_{j} \in A_{k} }^{}\left |j - k \right |\]
-![\sum_{k = 1}^{n}\sum_{w = A_{j} \in A_{k} }^{}\left |j - k \right |\](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
-
 where  ϕ:A↦N  satisfies  ϕ(w)=d , where  w=Aj , the unique superset of  w  is  Ak , and  |j−k|=d . More compactly, the sentence total dependency of a sentence  A  can be denoted
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{k&space;=&space;1}^{n}\sum_{w&space;=&space;A_{j}&space;\in&space;A_{k}&space;}^{}\left&space;|j&space;-&space;k&space;\right&space;|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{k&space;=&space;1}^{n}\sum_{w&space;=&space;A_{j}&space;\in&space;A_{k}&space;}^{}\left&space;|j&space;-&space;k&space;\right&space;|" title="\sum_{k = 1}^{n}\sum_{w = A_{j} \in A_{k} }^{}\left |j - k \right |" /></a>
