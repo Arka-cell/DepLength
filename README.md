@@ -1,6 +1,6 @@
 DepLength is a calculator for the dependency length of sentences in English.
 
-#### NOTE! TURN GITHUB INTO LIGHT MODE TO SEE DEPENDENCY LENGTH MATHEMATICAL NOTATION
+
 ### What is Dependency Length?
 Considering the following sentences:
 
