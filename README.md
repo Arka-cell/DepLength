@@ -1,4 +1,4 @@
-DepLength is a calculator for the dependency length of sentences in English, for my master thesis in LCE.
+DepLength is a calculator for the dependency length of sentences in English.
 
 
 ### What is Dependency Length?
