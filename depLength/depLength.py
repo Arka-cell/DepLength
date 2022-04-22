@@ -49,7 +49,7 @@ class DepLength:
     
     def getSentence(self, start_index, end_index=False):
         # If you want to get the whole sentence, you can call sentences method
-        if end_index == False:
+        if not end_index:
             return self.sentences[start_index]
         else:
             return self.sentences[start_index:end_index]
